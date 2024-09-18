@@ -17,7 +17,7 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <header class="site-header container">
+    <header class="container site-header">
       <nav class="header-container">
         <a class="site-logo link" href="index.html"
           ><img src="./images/WebStudio-black.svg" alt="Site logo"
@@ -52,72 +52,78 @@
       </nav>
     </header>
     <main>
-      <section class="site-hero">
+      <section class="section site-hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" data-modal-open>Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
 
       <section class="section">
-        <ul class="about-us container">
-          <li>
-            <div class="about-us-icon-container">
-              <svg class="about-us-icon">
-                <use href="./images/sprite.svg#icon-antenna"></use>
-              </svg>
-            </div>
+        <div class="container">
+          <ul class="about-us">
+            <li>
+              <div class="about-us-icon-container">
+                <svg class="about-us-icon">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
 
-            <h3 class="h3-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="about-us__item">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
+              <h3 class="h3-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="about-us__item">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
 
-          <li>
-            <div class="about-us-icon-container">
-              <svg class="about-us-icon">
-                <use href="./images/sprite.svg#icon-clock"></use>
-              </svg>
-            </div>
-            <h3 class="h3-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="about-us__item">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
+            <li>
+              <div class="about-us-icon-container">
+                <svg class="about-us-icon">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="h3-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="about-us__item">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
 
-          <li>
-            <div class="about-us-icon-container">
-              <svg class="about-us-icon">
-                <use href="./images/sprite.svg#icon-diagram"></use>
-              </svg>
-            </div>
-            <h3 class="h3-title">ПЛАНУВАННЯ</h3>
-            <p class="about-us__item">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
+            <li>
+              <div class="about-us-icon-container">
+                <svg class="about-us-icon">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="h3-title">ПЛАНУВАННЯ</h3>
+              <p class="about-us__item">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
 
-          <li>
-            <div class="about-us-icon-container">
-              <svg class="about-us-icon">
-                <use href="./images/sprite.svg#icon-astronaut"></use>
-              </svg>
-            </div>
-            <h3 class="h3-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="about-us__item">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+            <li>
+              <div class="about-us-icon-container">
+                <svg class="about-us-icon">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="h3-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="about-us__item">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="container section works-examples">
-        <h2 class="h2-title">Чим ми займаємося</h2>
+      <section class="section works-examples">
+        <div class="container">
+          <h2 class="h2-title">Чим ми займаємося</h2>
 
+<<<<<<< Updated upstream
         <ul class="works-examples-list">
           <li>
             <a href="#" class="works-examples-overlay-wrapper"
@@ -152,9 +158,46 @@
             </a>
           </li>
         </ul>
+=======
+          <ul class="works-examples-list">
+            <li>
+              <a href="#" class="works-examples-overlay-wrapper"
+                ><img
+                  src="/images/img0.jpg"
+                  alt="Works examplers"
+                  width="350px"
+                />
+                <p class="works-examples-overlay">Десктопні додатки</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="works-examples-overlay-wrapper"
+                ><img
+                  src="/images/img1.jpg"
+                  alt="Works examplers"
+                  width="350px"
+                />
+                <p class="works-examples-overlay">Мобільні додатки</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="works-examples-overlay-wrapper"
+                ><img
+                  src="/images/img2.jpg"
+                  alt="Works examplers"
+                  width="350px"
+                />
+                <p class="works-examples-overlay">Дизайнерські рішення</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+>>>>>>> Stashed changes
       </section>
 
-      <section class="our-crew section">
+      <section class="section our-crew">
         <div class="container">
           <h2 class="h2-title">Наша команда</h2>
 
@@ -353,7 +396,7 @@
             <li class="regular-customers-container">
               <a href="">
                 <svg class="regular-customers-icon">
-                  <use href="./images/sprite.svg#icon-group-1"></use>
+                  <use href="./images/sprite.svg#logo-1"></use>
                 </svg>
               </a>
             </li>
@@ -361,7 +404,7 @@
             <li class="regular-customers-container">
               <a href="">
                 <svg class="regular-customers-icon">
-                  <use href="./images/sprite.svg#icon-group-2"></use>
+                  <use href="./images/sprite.svg#logo-2"></use>
                 </svg>
               </a>
             </li>
@@ -369,7 +412,7 @@
             <li class="regular-customers-container">
               <a href="">
                 <svg class="regular-customers-icon">
-                  <use href="./images/sprite.svg#icon-group-3"></use>
+                  <use href="./images/sprite.svg#logo-3"></use>
                 </svg>
               </a>
             </li>
@@ -377,7 +420,7 @@
             <li class="regular-customers-container">
               <a href="">
                 <svg class="regular-customers-icon">
-                  <use href="./images/sprite.svg#icon-group-4"></use>
+                  <use href="./images/sprite.svg#logo-4"></use>
                 </svg>
               </a>
             </li>
@@ -385,7 +428,7 @@
             <li class="regular-customers-container">
               <a href="">
                 <svg class="regular-customers-icon">
-                  <use href="./images/sprite.svg#icon-group-5"></use>
+                  <use href="./images/sprite.svg#logo-5"></use>
                 </svg>
               </a>
             </li>
@@ -393,7 +436,7 @@
             <li class="regular-customers-container">
               <a href="">
                 <svg class="regular-customers-icon">
-                  <use href="./images/sprite.svg#icon-group-6"></use>
+                  <use href="./images/sprite.svg#logo-6"></use>
                 </svg>
               </a>
             </li>
